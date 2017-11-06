@@ -1,0 +1,22 @@
+/*
+Theme Name: Start WordPress
+Author: Addy King
+Description: Bootstrap Blog template converted to WordPress
+Version: 0.0.1
+Tags: bootstrap
+*/
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex-basis: 100%;
+}
+
+@media screen and (min-width: 800px) {
+  .column {
+    flex: 1;
+  }
+}
