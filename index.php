@@ -11,7 +11,7 @@
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -36,9 +36,53 @@
     </div>
   </div>
 
+  <span>' '</span>
   <blockquote class="blockquote text-center">
-    <h1 class="display-4">Keep The Michigan First Energy Law</h1>
+    <h1 class="text-primary p-5">Keep The Michigan First Energy Law</h1>
   </blockquote>
+
+  <div class="card mx-auto w-50 mb-5 ">
+    <div class="card-body text-warning bg-primary">
+      <div class="text-center">
+        <h4>Protect Michigan Jobs- Keep The Michigan First Energy Law</h4>
+      </div>
+    </div>
+  </div>
+
+  <form>
+    <div class="row justify-content-md-center">
+      <div class="col-sm-3 ml-1 mb-4">
+        <input type="text" class="form-control" placeholder="First name">
+      </div>
+      <div class="col-sm-3 ml-1 mb-4">
+        <input type="text" class="form-control" placeholder="Last name">
+      </div>
+    </div>
+    <div class="row justify-content-md-center">
+      <div class="col-sm-3 ml-1 mb-4">
+        <input type="text" class="form-control" placeholder="Zip">
+      </div>
+      <div class="col-sm-3 ml-1 mb-4">
+        <input type="text" class="form-control" placeholder="Email">
+      </div>
+    </div>
+  </form>
+
+  <div class="row justify-content-center">
+    <button type="button" class="btn btn-outline-primary btn-lg">Sign Up</button>
+  </div>
+      
+      
+
+ 
+
+  
+   
+
+  
+  
+
+ 
 
 
   
