@@ -12,7 +12,6 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <link href=<link href="/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">"/open-iconic/font/css/open-iconic-foundation.css" rel="stylesheet">
   </head>
 
   <body>
@@ -85,28 +84,36 @@
     </blockquote>
   </div>
 
-  <div class="card mx-auto w-75 mt-5 mb-5">
+<div class="col-8 mx-auto">
+  <div class="card mt-5 mb-5">
     <div class="card-body bg-warning">
       <div class="text-center text-primary">
-        <h2>The New Michigan First Energy law ensures Michigan's energy is:</h2>
+        <h3>The New Michigan First Energy law ensures Michigan's energy is:</h3>
       </div>
     </div>
   </div>
-  <div>
-
-  <div class="container blockquote">
-    <div class="row ">
-        <img src="<?php echo get_template_directory_uri() . '/open-iconic-master/png/check-4x.png'; ?>" class="col-xs-1 justify-text-center" /><p class="ml-4">Reliable</p>
-    </div>
-  </div>
-  <div class="container blockquote">
-    <div class="row ">
-        <img src="<?php echo get_template_directory_uri() . '/open-iconic-master/png/check-4x.png'; ?>" class="col-xs-1 justify-text-center" /><p class="ml-4">Affordable</p>
-      </div>
-    </div>
-
-    <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
+</div>
   
+  <div class="container">
+    <div class="row blockquote text-center">
+      <div class="col"><img src="<?php echo get_template_directory_uri() . '/images/list.jpg'; ?>" class="col-5 mb-5 mt-4" /></div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row blockquote text-center">
+      <div class="col"><img src="<?php echo get_template_directory_uri() . '/images/logo.jpg'; ?>" class="col-3 mb-5 mt-4" /></div>
+    </div>
+  </div>
+
+  <div class="card mx-auto mt-5 mb-5 w-75">
+    <div class="card-body bg-primary">
+      <div class="text-center text-white">
+        <h2></h2>
+      </div>
+    </div>
+  </div>
+
+
 
 
 
