@@ -12,6 +12,7 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <link href=<link href="/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">"/open-iconic/font/css/open-iconic-foundation.css" rel="stylesheet">
   </head>
 
   <body>
@@ -59,19 +60,59 @@
       </div>
     </div>
     <div class="row justify-content-md-center">
-      <div class="col-sm-3 ml-1 mb-4">
+      <div class="col-sm-3 ml-1 mb-5">
         <input type="text" class="form-control" placeholder="Zip">
       </div>
-      <div class="col-sm-3 ml-1 mb-4">
+      <div class="col-sm-3 ml-1 mb-5">
         <input type="text" class="form-control" placeholder="Email">
       </div>
     </div>
   </form>
 
-  <div class="row justify-content-center">
+  <div class="row justify-content-center mb-5">
     <button type="button" class="btn btn-outline-primary btn-lg">Sign Up</button>
   </div>
-      
+
+  <div class="container">
+    <div class="row blockquote text-center">
+      <div class="col"><img src="<?php echo get_template_directory_uri() . '/images/lightbluefooter.jpg'; ?>" class="col-12 mb-3" /></div>
+    </div> 
+  </div>
+
+  <div>
+    <blockquote class="blockquote text-center mb-5">
+      <h1 class="display-3 mt-5 text-primary font-weight-bold">SAVING 75,000 MICHIGAN JOBS</h1>
+    </blockquote>
+  </div>
+
+  <div class="card mx-auto w-75 mt-5 mb-5">
+    <div class="card-body bg-warning">
+      <div class="text-center text-primary">
+        <h2>The New Michigan First Energy law ensures Michigan's energy is:</h2>
+      </div>
+    </div>
+  </div>
+  <div>
+
+  <div class="container blockquote">
+    <div class="row ">
+        <img src="<?php echo get_template_directory_uri() . '/open-iconic-master/png/check-4x.png'; ?>" class="col-xs-1 justify-text-center" /><p class="ml-4">Reliable</p>
+    </div>
+  </div>
+  <div class="container blockquote">
+    <div class="row ">
+        <img src="<?php echo get_template_directory_uri() . '/open-iconic-master/png/check-4x.png'; ?>" class="col-xs-1 justify-text-center" /><p class="ml-4">Affordable</p>
+      </div>
+    </div>
+
+    <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
+  
+
+
+
+ 
+
+
       
 
  
