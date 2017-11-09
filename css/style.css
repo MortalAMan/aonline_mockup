@@ -213,7 +213,7 @@ UTILITY CLASSES
 .bg_white{background-color:white;}
 .bg_black{background-color:black;}
 .bg_red{background-color: #F44336;}
-.bg_blue{background-color: #093c70;}
+.bg_blue{background-color: #093c70 !important;}
 .bg_green{background-color: #4CAF50;}
 
 .bg_cover{background-size:cover;}
